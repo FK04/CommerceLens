@@ -1,0 +1,5 @@
+dataset,raw_rows,clean_rows,rejected_rows,retention_pct,raw_missing_cells,clean_missing_cells,duplicate_rows_raw,duplicate_rows_clean
+ecommerce_sales,138116,138116,0,100.0,573828,73671,0,0
+customer_master,25000,25000,0,100.0,0,0,0,0
+product_catalog,1175,1175,0,100.0,0,0,0,0
+order_items,397569,397569,0,100.0,0,0,0,0
