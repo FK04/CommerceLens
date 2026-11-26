@@ -1,0 +1,76 @@
+E-Comm/
+│
+├── 1. Documents/
+│   		├── Proj Overview.pdf        
+│   		├── Folder Arch.txt
+│  		├── Proj Arch.jpeg
+│  		└── my_ecom.docx
+│
+│
+├── 2. Data/
+│   		├── 1. Raw/
+│   		│   		├── ecommerce_sales_customer_analytics_150k.csv
+│   		│   		├── order_items.csv
+│  		│  		├── customer_master.csv
+│   		│  		├── product_catalog.csv
+│   		│  		└── dataset_statistics.csv
+│   		├── 2. Cleaned/
+│   		│   		├── sales_cln.csv
+│   		│   		├── orders_cln.csv
+│   		│   		├── customers_cln.csv
+│   		│   		├── products_cln.csv
+│   		│   		└── dataset_statistics.csv
+│   		├── 3. Deleted/
+│   		│   		├── sales_rejected.csv
+│   		│   		├── orders_rejected.csv
+│   		│   		├── customers_rejected.csv
+│   		│  	 	└── products_rejected.csv
+│   		├── 4. Feature Engineering/
+│   		│   		├── sales.csv
+│   		│   		├── orders.csv
+│   		│   		├── customers.csv
+│   		│   		├── products.csv
+│   		│   		└── dataset_statistics.csv
+│  		└── Scripts/
+│       	 		├── ETL.py
+│       	 		├── my_analysis.py 
+│       	 		├── fix_order_items_inplace.py
+│       	 		└── feature_engineering.py             
+│
+│
+├── 3. Predictive Modeling (ML)/
+│   		├── 1. Return Prediction/
+│       	│		├── r_train.py
+│       	│		├── r_eval.py 
+│       	│		├── r_model.pkl 
+│       	│		└── r_result.xlsx          
+│   		├── 2. Sales Forecasting/
+│       	│		├── s_train.py
+│       	│		├── s_eval.py 
+│       	│		├── s_model.pkl 
+│       	│		└── s_result.xlsx          
+│   		├── 3. Customer Segmentation/
+│       	│		├── c_train.py
+│       	│		├── c_eval.py 
+│       	│		├── c_model.pkl 
+│       	│		└── c_result.xlsx
+│   		└── 4. Prediction/    
+│       			├── return_pred.xls
+│       			├── sales_pred.xls
+│       			└── Customer_seg.xls          
+│
+│
+├──  4. Power BI/
+│   		├── Ecom_Dash.pbix
+│   		└── Data Modeling.jpeg         
+│
+│
+└──  5. Proj Doc's/
+   		├── 1. Overview
+   		├── 2. ETL & Feature Engg
+		├── 3. Predictive Modeling - ML
+		├── 4. Data Modeling
+		├── 5. Dashboard - Design & Development
+		├── 6. DAX Measures & Calculation Logic
+		└── E-Commerce
+
